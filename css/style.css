@@ -1,0 +1,140 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+header{
+	background-image: url(../1.jpg);
+	height: 1000px;
+	background-size: 100% 100%;
+	background-position: center;
+}
+img{
+	height: 640px;
+	align-items: center;
+}
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	font-size: 30px;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.main{
+	max-width: 1600px;
+	margin: auto;
+}
+.title h1{	
+	position: absolute;
+	left: 50%;
+	margin-top: 25px;
+	color: white;
+	font-size: 50px;
+}
+.title2 h2{	
+	position: middle;
+	margin: center;
+	text-align: center;
+	color: black;
+	font-size: 65px;
+}
+.button{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	font-size: 30px;	
+}
+.button1{
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	max-width: 1600px;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+}
+.btn{
+	border: 2px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.5s ease;
+	border-radius: 50px;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+.paragraph p{
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	max-width: 1600px;
+	margin: auto;
+	color: white;
+	font-size: 100px;	
+}
+.paragraph p1{	
+	position: absolute;
+	top: 60%;
+	left: 15%;
+	max-width: 1600px;
+	margin: auto;
+	color: white;
+	font-size: 30px;	
+}
+.row{
+	display: flex;
+}
+.column{
+	flex: 50%;
+	padding: 5px;
+}
+.paragraph2 p{	
+	position:absolute;
+	color: black;
+	margin: auto;
+	font-size: 50px;	
+	top: 205%;
+}
+.paragraph2 p1{	
+	position: absolute;
+	color: black;
+	margin: auto;
+	font-size: 20px;
+	top: 212%;
+}
+.btn1{
+	border: 2px solid black;
+	padding: 10px 30px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.5s ease;
+	border-radius: 50px;
+}
+.btn1:hover{
+	background-color: black;
+	color: white;
+}
+.button2{
+	position: absolute;
+	margin: auto;
+	color: black;
+	font-size: 30px;
+	top: 220%;
+}
